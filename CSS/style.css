@@ -1,0 +1,77 @@
+html {
+    box-sizing: :border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+
+.div {
+    font-family: 'Lato', sans-serif;
+    margin: 0px auto;
+    max-width: 900px;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.507);
+    text-align: center;
+    background-image: url("../picture/kasa.jpg");
+    width: 200px;
+    height: 200px;
+    resize:both;
+    background-repeat: space;
+}
+
+.div__header {
+    font-size: 40px;
+    color: rgba(11, 6, 15, 0.57);
+    text-align: center;
+    padding: 5px;
+}
+
+.div__footer {
+    font-size: 15px;
+    font-style: italic;
+    padding: 5px;
+}
+
+.div__result {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(218, 222, 226);
+    padding: 5px;
+}
+
+.div__value {
+    font-size: 15px;
+}
+
+.form__legend {
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(193, 198, 197);
+}
+
+.form__fieldset {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(193, 198, 203);
+}
+
+.from__text {
+    font-size: 15px;
+}
+
+.from__button {
+    background-color: rgb(193, 198, 197);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.from__button:active {
+    background-color: rgb(227, 238, 236);
+}

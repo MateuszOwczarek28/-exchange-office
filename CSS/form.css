@@ -1,0 +1,27 @@
+.form__legend {
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(193, 198, 197);
+}
+
+.form__fieldset {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(193, 198, 203);
+}
+
+.from__text {
+    font-size: 15px;
+}
+
+.from__button {
+    background-color: rgb(193, 198, 197);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.from__button:active {
+    background-color: rgb(227, 238, 236);
+}
