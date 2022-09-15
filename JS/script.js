@@ -1,17 +1,26 @@
-let plnElement = document.querySelector(".js-PLN");
-let formElement = document.querySelector(".js-form");
-let currencyElement = document.querySelector(".js-currency");
-let resultElement = document.querySelector(".js-result");
+{
+    const welcome = () => {
+        console.log("Witam serdecznie w moim kantorze");
+    }
+    welcome()
+    
+const plnElement = document.querySelector(".js-PLN");
+const formElement = document.querySelector(".js-form");
+const currencyElement = document.querySelector(".js-currency");
+const resultElement = document.querySelector(".js-result");
 
-
-
-formElement.addEventListener("submit", (event) => {
+const OnForSubmit = (event) => {
     event.preventDefault();
 
-    let amount = plnElement.value;
-    let currency = currencyElement.value;
+    const amount = plnElement.value;
+    const currency = currencyElement.value;
 
-    let result = amount / currency;
+    const result = amount / currency;
 
     resultElement.innerText = result.toFixed(2);
-});
+}
+
+formElement.addEventListener("submit", OnForSubmit);
+
+
+}
