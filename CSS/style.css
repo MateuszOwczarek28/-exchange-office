@@ -16,11 +16,11 @@ html {
     padding: 10px;
     background-color: rgba(240, 248, 255, 0.507);
     text-align: center;
-    background-image: url("../picture/kasa.jpg");
+    background-image: url("../picture/money.jpg");
     width: 200px;
     height: 200px;
-    resize:both;
-    background-repeat: space;
+    resize: both;
+    background-repeat: round;
 }
 
 .div__header {
