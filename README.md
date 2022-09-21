@@ -1,11 +1,16 @@
 # Currency-converter
 
-[link](https://mateuszowczarek28.github.io/-exchange-office/)
+[Link](https://mateuszowczarek28.github.io/-exchange-office/)
 
 ## Description
 ### That's my second web-project about web exachange-office. I more learn did table and style it.
 
-![web view](https://github.com/MateuszOwczarek28/-exchange-office/blob/main/picture/scan.png)
+## web view
+![web view](https://github.com/MateuszOwczarek28/-exchange-office/blob/main/picture/scannew.png)
+
+## How to use currency exchange
+![gif](https://github.com/MateuszOwczarek28/-exchange-office/blob/main/picture/gif%20strona.gif)
+
 
 ### I use: HTML, JS, CSS, BEM, Canva for icon and bacground- image.
 
