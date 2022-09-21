@@ -7,5 +7,6 @@
 
 ![web view](https://github.com/MateuszOwczarek28/-exchange-office/blob/main/picture/scan.png)
 
-## I use: HTML, JS, CSS, BEM
+### I use: HTML, JS, CSS, BEM, Canva for icon and bacground- image.
 
+#### see you in the next project
