@@ -9,7 +9,7 @@
     const currencyElement = document.querySelector(".js-currency");
     const resultElement = document.querySelector(".js-result");
 
-    const OnForSubmit = (event) => {
+    const onForSubmit = (event) => {
         event.preventDefault();
 
         const amount = plnElement.value;
@@ -20,7 +20,7 @@
         resultElement.innerText = result.toFixed(2);
     }
 
-    formElement.addEventListener("submit", OnForSubmit);
+    formElement.addEventListener("submit", onForSubmit);
 
 
 }
