@@ -25,3 +25,22 @@
 .from__button:active {
     background-color: rgb(227, 238, 236);
 }
+.from__footer {
+    font-size: 16px;
+    font-style: italic, solid;
+    padding: 15px;
+    color: rgb(1, 6, 11);
+    text-align: left;
+}
+
+.from__result {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.from__value {
+    font-size: 15px;
+}
