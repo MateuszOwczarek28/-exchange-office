@@ -19,10 +19,8 @@
     <script defer src="JS/script.js"></script>
 </head>
 
-<body class="div">
-    <header class="div__header">Wymiana walut</header>
-    <div>
-        <p>
+<body >
+    <div class="div">       
         <form class="js-form">
             <fieldset class="form__fieldset">
                 <legend class="form__legend">
@@ -40,19 +38,17 @@
                             <option value="4.6">Dolar amerykański (USD)</option>
                             <option value="3.15"> Dolar australiski(AUD)</option>
                         </select>
+                        <button class="from__button" type="submint">Przelicz</button>
+                        <P class="div__result">
+                            Kwota:<span class="div__value js-result"></span> 
+                        </P>
+                        <footer class="div__footer">
+                            Kurs na ptodstawie średniej wartości z 16.08. 2022r.
+                        </footer>
                     </label>
                 </p>
             </fieldset>
-            </p>
-            <p>
-                <button class="from__button" type="submint" ,>Przelicz</button>
-            <P class="div__result">
-                Kwota:<span class="div__value js-result"></span> PLN
-            </P>
-        </form>
-        <footer class="div__footer">
-            Kurs na ptodstawie średniej wartości z 16.08. 2022r.
-        </footer>
+        </form>      
     </div>
 </body>
 
